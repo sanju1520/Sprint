@@ -1,0 +1,21 @@
+/*package com.cg.tutor.dao;
+
+import java.util.List;
+
+import com.cg.tutor.entity.Rating;
+
+public class RatingDaoImpl implements RatingDao {
+
+	@Override
+	public Rating saveRating(Rating rating) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Rating> fetchAllRatings() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}*/

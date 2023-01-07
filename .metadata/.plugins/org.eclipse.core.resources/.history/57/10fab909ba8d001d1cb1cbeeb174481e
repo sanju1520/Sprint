@@ -1,0 +1,12 @@
+package com.cg.tutor.dao;
+
+import java.util.List;
+
+import com.cg.tutor.entity.Rating;
+
+public interface RatingDao {
+	public Rating saveRating(Rating rating);
+
+	public List<Rating> fetchAllRatings();
+
+}

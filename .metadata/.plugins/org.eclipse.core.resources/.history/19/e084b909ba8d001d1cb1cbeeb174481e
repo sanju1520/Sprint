@@ -1,0 +1,35 @@
+package com.cg.tutor.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.cg.tutor.entity.Rating;
+
+public class RatingDaoImpl implements RatingDao {
+	private List<Rating> rating=new ArrayList<>();
+	
+	public RatingDaoImpl() {
+		Rating rating1=new Rating();
+		rating1.setRateId(5);
+		rating1.setRate(2);
+		rating1.setComment("poor");
+		rating1.setParent(null);
+		rating1.setTutor(null);
+		
+		rating.add(rating1);
+	}
+
+	@Override
+	public Rating saveRating(Rating rating) {
+		((List<Rating>) rating).add(rating);
+		
+		return null ;
+	}
+
+	@Override
+	public List<Rating> fetchAllRatings() {
+		
+		return rating;
+	}
+
+}

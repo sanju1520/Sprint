@@ -1,0 +1,5 @@
+package com.cg.tutor.dao;
+
+public class RatingDaoImpl {
+
+}

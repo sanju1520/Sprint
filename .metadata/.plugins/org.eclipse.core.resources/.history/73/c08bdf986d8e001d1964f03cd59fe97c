@@ -1,0 +1,15 @@
+import javax.persistence.Column;
+
+import package com.cg.tutor.dto;
+
+public class RatingDto {
+	@Column
+	private int rateId;
+
+	@Column
+	private int rate;
+	
+	@Column
+	private String comment;
+
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	   <title>Save product</title>
+	</head>
+	<body>
+	   <h1>save product Form </h1>
+       <form>
+            <div>
+                ProductId<input type="text" name="pid" required/>
+            </div>
+            <div>
+                ProductName<input type="text" name="pname" pattern="[a-zA-Z]{5}" title="Only alphabets are allowed"/>
+            </div>
+            <div>
+                ProductPrice<input type="number" name="pprice"/>
+            </div>
+
+            <input type="submit" value="save"/>
+       </form>
+	</body>
+</html>
